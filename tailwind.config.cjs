@@ -12,7 +12,7 @@ export default {
         "primary-300" : "#ffa6a3",
         "primary-500" : "#ff6b66",
         "secondary-400" : "#ffcd58",
-        "secondary-500" : "ffc132",
+        "secondary-500" : "#ffc132",
       },
       backgroundImage : (theme) => ( {
         "gradient-yellowred" : "linear-gradient(90deg, #ff616a 0%, #ffc837 100%)" , 
@@ -22,11 +22,11 @@ export default {
         dmsans : ["DM Sans", "san-serif"] , 
         montserrat :["Montserrat", "sans-serif"]
       },
-      content : {
-        evolvetext : "url(./assets/EvolveText.png)",
-        abstractwaves : "url(./assets/EvolveText.png)",
-        sparkles : "url(./assets/EvolveText.png)",
-        circles : "url(./assets/EvolveText.png)", 
+      content: {
+        evolvetext: "url('./assets/EvolveText.png')",
+        abstractwaves: "url('./assets/AbstractWaves.png')",
+        sparkles: "url('./assets/Sparkles.png')",
+        circles: "url('./assets/Circles.png')",
       },
     },
     screens : {
