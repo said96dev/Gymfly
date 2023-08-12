@@ -18,9 +18,9 @@ export default {
         "gradient-yellowred" : "linear-gradient(90deg, #ff616a 0%, #ffc837 100%)" , 
         "mobile-home" : "url(./assets/HomePageGraphic.png)"
       }),
-      fontFamily : { 
-        dmsans : ["DM Sans", "san-serif"] , 
-        montserrat :["Montserrat", "sans-serif"]
+      fontFamily: {
+        dmsans: ["DM Sans", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
       content: {
         evolvetext: "url('./assets/EvolveText.png')",
